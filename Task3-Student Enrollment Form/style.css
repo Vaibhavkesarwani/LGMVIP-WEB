@@ -1,0 +1,136 @@
+body{
+    text-align: center;
+    margin: 0px;
+    background: linear-gradient(to right, rgb(219, 254, 254),rgb(255, 237, 220));
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3em;
+    font-weight: 700;
+    background:linear-gradient(rgb(23, 38, 50),rgb(68, 32, 69));
+    padding: 60px;
+    margin: 0px;
+    color:beige;
+}
+
+hr{
+    margin:0px;
+    padding: 2px;
+    background-color: black;
+}
+
+#card,#form{
+    width:40%;
+    float:left;
+    text-align:left;
+}
+
+#form{
+    margin-top: 60px;
+    margin-left: 130px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size:17px;
+    color: rgb(46, 37, 0);
+}
+
+#card{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    border-left: 4px solid black;
+    padding: 60px 0px 0px 160px;
+}
+
+#card .c,.d,.e{
+    border:2px solid rgb(255, 255, 255);
+    margin: 10px;
+    width: 380px;
+    height: 170px;
+}
+
+#card .c{
+    background-color: rgb(34, 50, 104);
+    color: white;
+    border-radius: 10px;
+}
+
+#card .d{
+    background-color: rgb(149, 44, 79);
+    color: white;
+    border-radius: 10px;
+}
+
+#card .e{
+    background-color: rgb(50, 132, 61);
+    color: white;
+    border-radius: 10px;
+}
+
+.a{
+    /* width: 50%; */
+    float:left;
+}
+
+.b{
+    float:right;
+    margin:5px 5px 0px 0px;
+}
+
+#card div p{
+    margin: 8px 8px;
+    max-width: 250px;
+    white-space: normal;
+    word-break: break-word;
+    background-color: rgba(171, 171, 171, 0.164);
+    border-radius: 5px;
+}
+
+
+label{
+    width:150px;
+    display:inline-block;
+}
+
+
+.radio{
+    margin-left: 159px;
+}
+
+.check{
+    margin-left: 159px;
+}
+
+#submit,#reset{
+    padding:15px;
+    margin:3px 20px;
+    border-radius: 15px;
+    border: 0px;
+    color: rgb(234, 234, 234);
+    font-weight: bold;
+    background-color: rgb(65, 65, 65);
+}
+
+input{
+    border-radius: 8px;
+    padding: 3px;
+    border: 2px solid rgb(139, 139, 139);
+    background-color: rgb(255, 253, 251);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+pre{
+    font-weight: bold;
+}
+
+.vertical {
+    border-left: 4px solid rgb(0, 0, 0);
+    height: 75%;
+    position:absolute;
+    left: 48.55%;
+}

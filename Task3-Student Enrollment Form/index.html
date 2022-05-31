@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Student Enrollment Form</h1>
+	<hr>
+	<div id="form">
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name">
+		<br><br>	
+		<label for="gender">Gender:</label>
+		<input type="radio" name="gender" value="Male" id="male" checked>Male<br>
+		<input type="radio" name="gender" value="Female" id="female" class="radio">female<br>
+		<input type="radio" name="gender" value="Other" id="other" class="radio">other
+		<br><br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email">
+		<br><br>
+		<label for="website">Website:</label>
+		<input type="text" name="website" id="website">
+		<br><br>
+		<label for="skills">Skills:</label>
+		<input type="checkbox" name="skills" value="Java" id="java">Java<br>
+		<input type="checkbox" name="skills" value="Javascript" id="javascript" class="check">Javascript<br>
+		<input type="checkbox" name="skills" value="C++" id="cpp" class="check">C++<br>
+		<input type="checkbox" name="skills" value="Python" id="python" class="check">Python<br>
+		<input type="checkbox" name="skills" value="GO" id="go" class="check">GO
+		<br><br>
+		<label for="image">Image Link:</label>
+		<input type="text" name="image" id="image">
+		<br><br><br>
+		<button id="submit">Enroll Student</button>
+		<button id="reset">Clear</button>
+	</div>
+	<div class="vertical"></div>
+	<div id="card">
+		<!-- <div>
+			<pre>  Description                                 Image</pre>
+		</div> -->
+	</div>
+</body>
+<script type="text/javascript" src="run.js"></script>
+</html>
